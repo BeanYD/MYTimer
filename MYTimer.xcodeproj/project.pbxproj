@@ -15,6 +15,7 @@
 		D762E762210158F4008914C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E761210158F4008914C4 /* main.m */; };
 		D762E76C210158F4008914C4 /* MYTimerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E76B210158F4008914C4 /* MYTimerTests.m */; };
 		D762E777210158F5008914C4 /* MYTimerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E776210158F5008914C4 /* MYTimerUITests.m */; };
+		D762E78621015902008914C4 /* MYTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D762E78521015902008914C4 /* MYTimer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		D762E772210158F4008914C4 /* MYTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MYTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D762E776210158F5008914C4 /* MYTimerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYTimerUITests.m; sourceTree = "<group>"; };
 		D762E778210158F5008914C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D762E78421015902008914C4 /* MYTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MYTimer.h; sourceTree = "<group>"; };
+		D762E78521015902008914C4 /* MYTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MYTimer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				D762E753210158F4008914C4 /* AppDelegate.m */,
 				D762E755210158F4008914C4 /* ViewController.h */,
 				D762E756210158F4008914C4 /* ViewController.m */,
+				D762E78421015902008914C4 /* MYTimer.h */,
+				D762E78521015902008914C4 /* MYTimer.m */,
 				D762E758210158F4008914C4 /* Main.storyboard */,
 				D762E75B210158F4008914C4 /* Assets.xcassets */,
 				D762E75D210158F4008914C4 /* LaunchScreen.storyboard */,
@@ -268,6 +273,7 @@
 				D762E757210158F4008914C4 /* ViewController.m in Sources */,
 				D762E762210158F4008914C4 /* main.m in Sources */,
 				D762E754210158F4008914C4 /* AppDelegate.m in Sources */,
+				D762E78621015902008914C4 /* MYTimer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

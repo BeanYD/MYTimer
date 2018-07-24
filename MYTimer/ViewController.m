@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "MYTimer.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    [MYTimer gcdTimerWithStart:1.0f interval:1.0f repeats:YES async:NO block:^{
+        NSLog(@"timer log");
+    }];
 }
 
 
